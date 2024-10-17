@@ -34,7 +34,7 @@ This repository contains the implementation of the system architecture for an Id
 
 To set up the project locally, follow these steps:
 
-1. **Install Graphviz**:
+1. **Install Graphviz and Diagram**:
 
    - For macOS users, download Graphviz via Homebrew:
      ```bash
@@ -44,6 +44,11 @@ To set up the project locally, follow these steps:
      ```bash
      choco install graphviz
      ```
+
+   - Install Diagrams
+      ```bash
+      pip install diagram
+      ```
 
 2. **Clone the repository**:
 
