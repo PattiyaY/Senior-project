@@ -1,6 +1,4 @@
-# System Architecture Repository
-
-# Senior-project
+# Senior-project (IDP System Architecture)
 
 ## Overview
 
