@@ -12,7 +12,7 @@ This repository contains the implementation of the system architecture for an Id
 
 ### Frontend Cluster
 
-- **React**: The main user interface for the application, facilitating user interactions.
+- **NextJS**: The main user interface for the application, facilitating user interactions.
 - **NextAuth.js**: Provides authentication services, managing user sessions and security.
 - **GitLab**: Used for user management, version control, and collaboration.
 
@@ -41,14 +41,15 @@ To set up the project locally, follow these steps:
      brew install graphviz
      ```
    - For Windows users with Chocolatey installed, run:
+
      ```bash
      choco install graphviz
      ```
 
    - Install Diagrams
-      ```bash
-      pip install diagram
-      ```
+     ```bash
+     pip install diagram
+     ```
 
 2. **Clone the repository**:
 

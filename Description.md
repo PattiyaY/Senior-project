@@ -6,7 +6,7 @@ The user interacts with the system, initiating communication with the **Frontend
 
 ## Frontend Cluster
 
-- **React**: Serves as the main user interface for the application, connecting directly to **NextAuth.js** for authentication and **GitLab** for user management.
+- **NextJS**: Serves as the main user interface for the application, connecting directly to **NextAuth.js** for authentication and **GitLab** for user management.
 
 ## Backend Cluster
 

@@ -1,6 +1,5 @@
 from diagrams import Cluster, Diagram
 from diagrams.custom import Custom
-from diagrams.programming.framework import React
 from diagrams.onprem.vcs import Gitlab
 from diagrams.onprem.database import MongoDB
 from diagrams.onprem.queue import RabbitMQ
@@ -12,7 +11,7 @@ with Diagram("IDP System Architecture", show=False):
     user = Custom("User", "./user.png")
 
     with Cluster("Frontend"):
-        frontend = React("React")
+        frontend = Custom("NextJS", "./nextjs.png")
         authen = Custom("NextAuth.js", "./nextauthjs.png")
         manageUser = Gitlab("GitLab")
         frontend - authen
